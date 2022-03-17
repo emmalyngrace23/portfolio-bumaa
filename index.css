@@ -11,9 +11,6 @@
 html {
 	scroll-behavior: smooth;
 }
-#aboutMe {
-	font-family: hubballi;
-}
 
 
  #my-name {
@@ -21,26 +18,20 @@ html {
  }
 
  #intro {
- 	font-family: hubballi; 
 	font-size: 20px;
  }
 
-#projects {
-	font-family: hubballi;
-}
-
-#tools {
+#projects,
+#intro,
+#tools,
+.contacts,
+#aboutMe,
+#visit{
 	font-family: hubballi;
 }
 
 .contacts {
-	font-family: hubballi;
 	width: 100%;
-
-}
-
-#visit {
-	font-family: hubballi;
 }
 
 
@@ -69,15 +60,21 @@ html {
 	border-radius: 25px;
 }
 
-.navbar, #projects, #contacts {
+.navbar,
+#projects,
+#contacts {
 	background-color: #b7814b;
 }
 
-#footer, #tools {
+#footer,
+#tools {
 	background-color: #faeed6;
 }
 
-#tools, #footer, #aboutMe, .fa-icon {
+#tools,
+#footer,
+#aboutMe,
+.fa-icon {
 	color: #4d351d !important;
 }
 
