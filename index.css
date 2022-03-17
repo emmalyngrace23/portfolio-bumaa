@@ -1,17 +1,85 @@
 #landing {
-	background-image: url(https://images.pexels.com/photos/8511548/pexels-photo-8511548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-image: url(images/background-beach.jpg);
+	/*background-image: url(https://images.pexels.com/photos/8511548/pexels-photo-8511548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+	/*background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 
 }
-
-#aboutMe {
-	font-family: satisfy;
-	font-size: 25px;
+html {
+	scroll-behavior: smooth;
 }
+#aboutMe {
+	font-family: hubballi;
+}
+
+
+ #my-name {
+ 	font-family: satisfy; !important
+ }
+
+ #intro {
+ 	font-family: hubballi; 
+	font-size: 20px;
+ }
 
 #projects {
-	font-family: satisfy;
-	background-color: #e28743;
+	font-family: hubballi;
 }
+
+#tools {
+	font-family: hubballi;
+}
+
+.contacts {
+	font-family: hubballi;
+	width: 100%;
+
+}
+
+#visit {
+	font-family: hubballi;
+}
+
+
+#gmap_canvas {
+	height: 50vh;
+	width: 100%;
+	border:  0;
+}
+
+.fa-icon {
+	font-size: 2rem;
+}
+
+.btn-outline-primary {
+	border-color:  white;
+}
+
+#tools-section > img {
+	width:  100px;
+}
+
+.carousel-inner > img {
+	width:  360px;
+	height: 200px;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.navbar, #projects, #contacts {
+	background-color: #b7814b;
+}
+
+#footer, #tools {
+	background-color: #ffe2c5;
+}
+
+#tools, #footer, #aboutMe, .fa-icon {
+	color: #4d351d !important;
+}
+
+
