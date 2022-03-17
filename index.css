@@ -1,5 +1,6 @@
 #landing {
-	background-image: url(images/background-beach.jpg);
+	background-image: url(https://images.pexels.com/photos/4287012/pexels-photo-4287012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	/*background-image: url(images/background-beach.jpg);*/
 	/*background-image: url(https://images.pexels.com/photos/8511548/pexels-photo-8511548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 	/*background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 	background-size: cover;
@@ -66,12 +67,18 @@ html {
 	margin: 0 !important;
 }
 
+#profile-pic > img {
+	height: 300px;
+	width: 300px;
+	border-radius: 25px;
+}
+
 .navbar, #projects, #contacts {
 	background-color: #b7814b;
 }
 
 #footer, #tools {
-	background-color: #ffe2c5;
+	background-color: #faeed6;
 }
 
 #tools, #footer, #aboutMe, .fa-icon {
