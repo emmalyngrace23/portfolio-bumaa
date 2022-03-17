@@ -14,7 +14,7 @@ html {
 
 
  #my-name {
- 	font-family: satisfy; !important
+ 	font-family: satisfy, sans-serif; !important
  }
 
  #intro {
@@ -27,7 +27,7 @@ html {
 .contacts,
 #aboutMe,
 #visit{
-	font-family: hubballi;
+	font-family: hubballi, sans-serif;
 }
 
 .contacts {
@@ -60,17 +60,20 @@ html {
 	border-radius: 25px;
 }
 
+/*coffee color*/
 .navbar,
 #projects,
 #contacts {
 	background-color: #b7814b;
 }
 
+/*cream*/
 #footer,
 #tools {
 	background-color: #faeed6;
 }
 
+/*dark brown font*/
 #tools,
 #footer,
 #aboutMe,
