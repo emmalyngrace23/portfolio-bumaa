@@ -1,5 +1,7 @@
 #landing {
 	background-image: url(https://images.pexels.com/photos/4287012/pexels-photo-4287012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	/*background-image: url(https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?cs=srgb&dl=pexels-scott-webb-3255761.jpg&fm=jpg);/
+	/*background-image: url(https://images.pexels.com/photos/9176211/pexels-photo-9176211.jpeg?cs=srgb&dl=pexels-kseniya-lapteva-9176211.jpg&fm=jpg);/
 	/*background-image: url(images/background-beach.jpg);*/
 	/*background-image: url(https://images.pexels.com/photos/8511548/pexels-photo-8511548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 	/*background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
@@ -56,7 +58,6 @@ html {
 
 .fa-icon {
 	font-size: 2rem;
-	margin-left: 1px;
 }
 
 
@@ -81,14 +82,14 @@ html {
 #projects,
 #footer,
 #tools {
-	background-color: #b7814b;
+	background-color: #b9844f;
 }
 
 /*cream*/
 #mini, 
 #contacts,
 .card {
-	background-color: #faeed6;
+	background-color: #fbf7ef;
 }
 
 /*white font*/
