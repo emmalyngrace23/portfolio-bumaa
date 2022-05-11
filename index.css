@@ -22,6 +22,7 @@ html {
  }
 
 #projects,
+#mini,
 #intro,
 #tools,
 .contacts,
@@ -29,6 +30,18 @@ html {
 #visit{
 	font-family: hubballi, sans-serif;
 }
+
+.card-img-top {
+	height: 100%;
+	width: 95%;
+
+}
+
+.card {
+	border: none;
+}
+
+
 
 .contacts {
 	width: 100%;
@@ -43,7 +56,10 @@ html {
 
 .fa-icon {
 	font-size: 2rem;
+	margin-left: 1px;
 }
+
+
 
 #tools-section > img {
 	width:  100px;
@@ -63,21 +79,29 @@ html {
 /*coffee color*/
 .navbar,
 #projects,
-#contacts {
+#footer,
+#tools {
 	background-color: #b7814b;
 }
 
 /*cream*/
-#footer,
-#tools {
+#mini, 
+#contacts,
+.card {
 	background-color: #faeed6;
 }
 
-/*dark brown font*/
+/*white font*/
 #tools,
 #footer,
-#aboutMe,
 .fa-icon {
+	color: white;
+}
+
+/*dark brown font*/
+#contacts,
+#mini,
+#aboutMe {
 	color: #4d351d !important;
 }
 
