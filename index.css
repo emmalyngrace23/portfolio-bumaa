@@ -75,7 +75,6 @@ html {
 #profile-pic {
 	height: 250px;
 	width: 250px;
-	flex-basis: unset;
 	border-radius: 30px;
 }
 
