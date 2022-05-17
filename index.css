@@ -106,4 +106,7 @@ html {
 	color: #4d351d !important;
 }
 
-
+.btn:hover {
+	color: black;
+	border-color: black;
+}
